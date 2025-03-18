@@ -16,9 +16,7 @@ const Achievements = () => {
             for General Contractors and Building Owners.
           </h2>
           <p className="text-gray-600 mt-4 max-w-2xl">
-          Picons là một công ty xây dựng hàng đầu chuyên cung cấp các giải pháp tổng thầu EPC (Thiết kế - Cung ứng - Thi công) với uy tín và kinh nghiệm dày dặn. Với đội ngũ chuyên gia tận tâm và công nghệ tiên tiến, chúng tôi cam kết mang đến những công trình chất lượng cao, an toàn và bền vững.
-
-          Sứ mệnh của chúng tôi là xây dựng những công trình hiện đại, góp phần phát triển hạ tầng và nâng tầm cuộc sống cộng đồng. Picons luôn hướng đến sự đổi mới và tối ưu hóa trong mọi quy trình, đảm bảo đáp ứng mọi nhu cầu của khách hàng với tinh thần chuyên nghiệp và trách nhiệm cao nhất. 
+          Picons là công ty xây dựng hàng đầu chuyên cung cấp các dịch vụ thi công và lắp đặt đa dạng, từ xây dựng công trình dân dụng đến công nghiệp. Với đội ngũ kỹ sư và chuyên gia giàu kinh nghiệm, chúng tôi luôn đảm bảo chất lượng, an toàn và tiến độ trong mọi dự án.
           </p>
         </div>
 

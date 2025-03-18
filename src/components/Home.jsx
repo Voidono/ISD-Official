@@ -67,7 +67,9 @@ const Home = () => {
         Chúng tôi là ai?
       </p>
       <p className="mt-4 text-gray-600 leading-relaxed">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquam pretium leo vel maximus. Curabitur finibus felis eget tellus porta, et ultricies dolor maximus. Quisque mauris nisi, malesuada eget elementum quis, eleifend eget neque. Morbi condimentum, dolor ut pellentesque mattis, quam magna dignissim sem, sed consectetur sapien sapien a mi. Vestibulum vehicula scelerisque placerat. Nam eu ligula nec lorem malesuada tristique et hendrerit velit. Duis at odio at mi convallis hendrerit id eu arcu. Morbi ultricies vulputate iaculis. Nunc elementum porta ornare.
+      Picons là một công ty xây dựng hàng đầu chuyên cung cấp các giải pháp tổng thầu EPC (Thiết kế - Cung ứng - Thi công) với uy tín và kinh nghiệm dày dặn. Với đội ngũ chuyên gia tận tâm và công nghệ tiên tiến, chúng tôi cam kết mang đến những công trình chất lượng cao, an toàn và bền vững.
+
+      Sứ mệnh của chúng tôi là xây dựng những công trình hiện đại, góp phần phát triển hạ tầng và nâng tầm cuộc sống cộng đồng. Picons luôn hướng đến sự đổi mới và tối ưu hóa trong mọi quy trình, đảm bảo đáp ứng mọi nhu cầu của khách hàng với tinh thần chuyên nghiệp và trách nhiệm cao nhất. 
       </p>
     </div>
 
