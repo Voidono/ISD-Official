@@ -67,7 +67,7 @@ const Home = () => {
         Chúng tôi là ai?
       </p>
       <p className="mt-4 text-gray-600 leading-relaxed">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquam pretium leo vel maximus. Curabitur finibus felis eget tellus porta, et ultricies dolor maximus. Quisque mauris nisi, malesuada eget elementum quis, eleifend eget neque. Morbi condimentum, dolor ut pellentesque mattis, quam magna dignissim sem, sed consectetur sapien sapien a mi. Vestibulum vehicula scelerisque placerat. Nam eu ligula nec lorem malesuada tristique et hendrerit velit. Duis at odio at mi convallis hendrerit id eu arcu. Morbi ultricies vulputate iaculis. Nunc elementum porta ornare.
+      Picons là công ty chuyên cung cấp dịch vụ toàn diện về thiết kế, lắp đặt và xây dựng nhà máy. Với đội ngũ chuyên gia giàu kinh nghiệm và tâm huyết, chúng tôi cam kết mang lại những giải pháp tối ưu nhất cho mọi dự án.
       </p>
     </div>
 
