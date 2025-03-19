@@ -5,36 +5,37 @@ import img2 from "../assets/home-image-2.jpg";
 import img3 from "../assets/home-image-3.jpg";
 
 const departments = [
-  { name: "Management", icon: Users },
-  { name: "Accounting", icon: Book },
-  { name: "Council", icon: Briefcase },
-  { name: "Insurance", icon: Globe },
-  { name: "Bonding", icon: Shield },
-  { name: "Safety", icon: LifeBuoy },
+  { name: "Ban Quản lý", icon: Users },
+  { name: "Kế toán", icon: Book },
+  { name: "Cố vấn", icon: Briefcase },
+  { name: "Bảo hiểm", icon: Globe },
+  { name: "Bảo lãnh", icon: Shield },
+  { name: "An toàn", icon: LifeBuoy },
 ];
 
 const staffData = {
-  Management: [
-    { name: "Everett T. Greenstreet Jr.", title: "Founder, CEO", img: img1 },
-    { name: "Everett T. Greenstreet III", title: "Co-Founder, CFO", img: img2 },
+  "Ban Quản lý": [
+    { name: "Everett T. Greenstreet Jr.", title: "Người sáng lập, CEO", img: img1 },
+    { name: "Everett T. Greenstreet III", title: "Đồng sáng lập, CFO", img: img2 },
   ],
-  Accounting: [
-    { name: "Shane J. Greenstreet", title: "Co-Founder, COO", img: img3 },
+  "Kế toán": [
+    { name: "Shane J. Greenstreet", title: "Đồng sáng lập, COO", img: img3 },
   ],
-  // Add other departments and staff here
+  // Thêm các phòng ban và nhân sự khác tại đây
 };
 
 export default function StaffCarousel() {
-  const [selectedDept, setSelectedDept] = useState("Management");
+  const [selectedDept, setSelectedDept] = useState("Ban Quản lý");
 
   return (
     <div className="p-6 max-w-4xl mx-auto">
       <h2 className="text-2xl font-bold text-center mb-6">Đội ngũ của chúng tôi</h2>
       <p className="text-lg text-gray-600 mb-6 text-center">
-      Đội ngũ kiến trúc sư, kỹ sư và chuyên gia xây dựng giàu kinh nghiệm của chúng tôi là xương sống của thành công. Chúng tôi hợp tác để đưa ra các giải pháp sáng tạo, đảm bảo mọi dự án được hoàn thành đúng tiến độ và ngân sách.
+        Đội ngũ kiến trúc sư, kỹ sư và chuyên gia xây dựng giàu kinh nghiệm của chúng tôi là xương sống của thành công.
+        Chúng tôi hợp tác để đưa ra các giải pháp sáng tạo, đảm bảo mọi dự án được hoàn thành đúng tiến độ và ngân sách.
       </p>
 
-      {/* Department Selector */}
+      {/* Bộ chọn phòng ban */}
       <div className="flex flex-wrap justify-center gap-4 mb-6">
         {departments.map(({ name, icon: Icon }) => (
           <button
@@ -50,7 +51,7 @@ export default function StaffCarousel() {
         ))}
       </div>
 
-      {/* Staff Members Display */}
+      {/* Hiển thị nhân sự */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {staffData[selectedDept]?.map((staff, index) => (
           <div key={index} className="text-center p-4 border rounded-lg shadow-lg bg-white">
@@ -67,5 +68,6 @@ export default function StaffCarousel() {
     </div>
   );
 }
+
 
 

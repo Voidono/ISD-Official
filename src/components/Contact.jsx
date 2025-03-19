@@ -8,9 +8,9 @@ const Contact = () => {
     >
       {/* Contact Info Header */}
       <div className="text-center mt-8 sm:mt-10 max-w-[900px]">
-        <h2 className="text-3xl sm:text-4xl font-medium text-white">Contact Us</h2>
+        <h2 className="text-3xl sm:text-4xl font-medium text-white">Liên hệ</h2>
         <p className="text-sm sm:text-base font-light text-white mt-2">
-          Ready to start your next construction project? Contact us today to discuss your vision, and let us help you build something amazing.
+        Sẵn sàng bắt đầu dự án xây dựng tiếp theo của bạn? Hãy liên hệ với chúng tôi ngay hôm nay để thảo luận về tầm nhìn của bạn và để chúng tôi giúp bạn xây dựng một điều gì đó tuyệt vời.
         </p>
       </div>
 
@@ -22,7 +22,7 @@ const Contact = () => {
           <div className="flex space-x-4">
             <MapPin size={24} strokeWidth={2} className="text-cyan-500" />
             <div className="text-white text-sm sm:text-base font-light">
-              <h3 className="font-medium text-cyan-400">Address</h3>
+              <h3 className="font-medium text-cyan-400">Địa chỉ</h3>
               <p>Đ. Lê Văn Lương, phường Nhân Chính, quận Thanh Xuân, Hà Nội</p>
             </div>
           </div>
@@ -40,7 +40,7 @@ const Contact = () => {
           <div className="flex space-x-4">
             <Phone size={24} strokeWidth={2} className="text-cyan-500" />
             <div className="text-white text-sm sm:text-base font-light">
-              <h3 className="font-medium text-cyan-400">Phone</h3>
+              <h3 className="font-medium text-cyan-400">Điện thoại</h3>
               <p>+09123458676</p>
             </div>
           </div>
@@ -49,14 +49,14 @@ const Contact = () => {
         {/* Contact Form */}
         <div className="w-full bg-white p-6 sm:p-8 rounded-lg shadow-lg self-center">
           <h2 className="text-xl sm:text-2xl font-medium text-gray-800 text-center mb-4">
-            Feel free to send a message to us
+            Gửi mail cho chúng tôi
           </h2>
           <form>
             <div className="mb-4">
               <input
                 type="text"
                 required
-                placeholder="Full Name"
+                placeholder="Họ & Tên"
                 className="w-full p-3 border-b-2 border-gray-400 focus:outline-none focus:ring-2 focus:ring-cyan-400"
               />
             </div>
@@ -71,12 +71,12 @@ const Contact = () => {
             <div className="mb-4">
               <textarea
                 required
-                placeholder="Type your message..."
+                placeholder="Tin nhắn của bạn..."
                 className="w-full p-3 border-b-2 border-gray-400 focus:outline-none focus:ring-2 focus:ring-cyan-400"
               />
             </div>
             <button className="w-full p-3 bg-cyan-500 text-white font-semibold rounded-lg hover:bg-cyan-600 transition duration-300">
-              Send
+              Gửi
             </button>
           </form>
         </div>
