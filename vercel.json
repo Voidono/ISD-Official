@@ -3,6 +3,6 @@
       { "source": "/studio", "destination": "/studio/index.html" },
       { "source": "/studio/:path*", "destination": "/studio/index.html" }
     ],
-    "buildCommand": "npm run build && cd isdofficial && sanity build",
+    "buildCommand": "vite build && cd isdofficial && sanity build",
     "outputDirectory": "dist"
   }
