@@ -41,10 +41,11 @@ const Navbar = () => {
             <div className="hidden md:flex space-x-6">
               <Link to="/" className={getLinkClass("/")}>Trang Chủ</Link>
               <Link to='/chung-toi' className={getLinkClass("/chung-toi")}>Chúng Tôi</Link>
-              <Link to='/dich-vu' className={getLinkClass("/dich-vu")}>Dịch vụ</Link>
+
               <Link to='/tin-tuc' className={getLinkClass("/tin-tuc")}>Tin Tức</Link>
               <Link to='/du-an' className={getLinkClass("/du-an")}>Dự Án</Link>
               <Link to='/lien-he' className={getLinkClass("/lien-he")}>Liên hệ</Link>
+              <Link to='/tuyen-dung' className={getLinkClass("/tuyen-dung")}>Tuyển dụng</Link>
             </div>
             <div className="">
               <button onClick={() => setIsOpen(!isOpen)}>
@@ -65,10 +66,11 @@ const Navbar = () => {
         <div className="fixed top-[90px] left-1/2 transform -translate-x-1/2 w-[95%] md:w-[80%] bg-white/95 z-50 shadow-md rounded-2xl flex flex-col items-center space-y-4 py-4 transition-all duration-300 md:hidden">
           <Link to="/" className={getLinkClass("/")} onClick={() => setIsOpen(false)}>Trang Chủ</Link>
           <Link to='/chung-toi' className={getLinkClass("/chung-toi")} onClick={() => setIsOpen(false)}>Chúng Tôi</Link>
-          <Link to='/dich-vu' className={getLinkClass("/dich-vu")} onClick={() => setIsOpen(false)}>Dịch vụ</Link>
+
           <Link to='/tin-tuc' className={getLinkClass("/tin-tuc")} onClick={() => setIsOpen(false)}>Tin Tức</Link>
           <Link to='/du-an' className={getLinkClass("/du-an")} onClick={() => setIsOpen(false)}>Dự Án</Link>
           <Link to='/lien-he' className={getLinkClass("/lien-he")} onClick={() => setIsOpen(false)}>Liên hệ</Link>
+          <Link to='/tuyen-dung' className={getLinkClass("/tuyen-dung")} onClick={() => setIsOpen(false)}>Tuyển dụng</Link>
         </div>
       )}
     </>

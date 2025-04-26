@@ -16,7 +16,8 @@ const Achievements = () => {
             cho các Công trình nhà máy & xí nghiệp.
           </h2>
           <p className="text-gray-600 mt-4 max-w-2xl">
-          Với hơn 357 khách hàng và đối tác, chúng tôi tự hào là đơn vị hàng đầu trong lĩnh vực thiết kế, lắp đặt, xây dựng và tư vấn cho các công trình nhà máy và xí nghiệp.
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+            totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
           </p>
         </div>
 
