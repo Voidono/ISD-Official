@@ -10,6 +10,7 @@ import News_Details from './components/NewsDetails'
 import ProjectDetail from './components/ProjectDetails'
 
 import RecruitmentPage   from "./components/RecruitmentPage.jsx";
+import RecruitmentDetailsPage from './components/RecruitmentDetailsPage.jsx'
 function App() {
 
   return (
@@ -20,13 +21,14 @@ function App() {
           <Route path='/' element={<Home/>}/>
           <Route path='/chung-toi' element={<About/>}/>
           <Route path='/tuyen-dung' element={<RecruitmentPage/>}/>
+          <Route path='/tuyen-dung/:slug' element={<RecruitmentDetailsPage/>}/>
           <Route path='/tin-tuc' element={<News/>}/>  {/* T Sơn */}
           <Route path='/du-an' element={<Project/>}/> {/* Bảo */}
           <Route path='/lien-he' element={<Contact/>}/> {/* T Sơn */}
 
-          <Route path='/details' element={<News_Details/>}/> {/* T Sơn */}
+          <Route path='/tin-tuc/:slug' element={<News_Details/>}/> {/* T Sơn */}
 
-          <Route path="/du-an/:id" element={<ProjectDetail />} />{/* Bảo */}
+          <Route path="/du-an/:slug" element={<ProjectDetail />} />{/* Bảo */}
         </Routes>
         <Footer/>
       </Router>
