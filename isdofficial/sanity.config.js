@@ -9,7 +9,6 @@ export default defineConfig({
 
   projectId: 'p9o776pf',
   dataset: 'isd-cms',
-  basePath: '/studio',
   plugins: [structureTool(), visionTool()],
 
   schema: {

@@ -16,3 +16,12 @@ If you are developing a production application, we recommend using TypeScript an
 
 ## Dùng tailwind css
 ## dùng lucide react
+
+## Studio official blog host 
+https://picons.sanity.studio/
+
+### Update sanity schema
+```bash
+sanity build
+sanity deploy
+```
