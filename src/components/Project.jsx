@@ -69,39 +69,41 @@ const Project = () => {
           ))}
         </select>
       </div>
-      <ul className="space-y-4">
-        {filteredProjects.length > 0 ? (
-          filteredProjects.map((project) => (
-            <li
-              key={project._id}
-              className="flex items-center gap-4 p-4 border rounded-lg shadow-md hover:shadow-lg transition"
-              onClick={() => navigate(`/du-an/${project.slug.current}`)}
-            >
-              {project.image && (
-                <img
-                  src={urlFor(project.image).url()}
-                  alt={project.name}
-                  className="w-24 h-24 rounded-lg object-cover"
-                />
-              )}
-              <div>
-                <div className="text-lg font-semibold">{project.name}</div>
-                <div className="text-gray-600 flex items-center gap-1">
-                  <MapPin size={16} /> {project.location}
-                </div>
-                <div className="text-gray-600 flex items-center gap-1">
-                  <Hourglass size={16} /> {project.status}
-                </div>
-                <div className="text-gray-600 flex items-center gap-1">
-                  <Calendar size={16} /> {project.startDate}
-                </div>
-              </div>
-            </li>
-          ))
-        ) : (
-          <p className="text-center text-gray-500">Không tìm thấy dự án nào!</p>
+      <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+  {filteredProjects.length > 0 ? (
+    filteredProjects.map((project) => (
+      <li
+        key={project._id}
+        className="relative group cursor-pointer overflow-hidden rounded-lg shadow-md hover:shadow-lg transition"
+        onClick={() => navigate(`/du-an/${project.slug.current}`)}
+      >
+        {project.image && (
+          <img
+            src={urlFor(project.image).url()}
+            alt={project.name}
+            className="w-full h-60 object-cover transition-transform duration-300 group-hover:scale-105"
+          />
         )}
-      </ul>
+        {/* Overlay đen khi hover */}
+        <div className="absolute inset-0 bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-white p-4">
+          <h2 className="text-lg font-bold mb-2">{project.name}</h2>
+          <p className="flex items-center gap-2 text-sm mb-1">
+            <MapPin size={16} /> {project.location}
+          </p>
+          <p className="flex items-center gap-2 text-sm mb-1">
+            <Hourglass size={16} /> {project.status}
+          </p>
+          <p className="flex items-center gap-2 text-sm">
+            <Calendar size={16} /> {project.startDate}
+          </p>
+        </div>
+      </li>
+    ))
+  ) : (
+    <p className="text-center text-gray-500 col-span-full">Không tìm thấy dự án nào!</p>
+  )}
+</ul>
+
     </div>
   );
 };

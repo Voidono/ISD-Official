@@ -49,7 +49,8 @@ const Home = () => {
         
         <div className="w-full flex justify-center mt-6">
           <button className=" cursor-pointer bg-red-600 flex items-center text-white px-6 py-3 font-bold text-lg rounded shadow-md hover:bg-red-700">
-            <PhoneCall className="mr-2" /> Nhận tư vấn miễn phí
+            <PhoneCall className="mr-2"
+              href="tel:+84-243377383" /> Nhận tư vấn miễn phí
           </button>
         </div>
       </div>

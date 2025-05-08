@@ -35,7 +35,7 @@ const Footer = () => {
               <p className="text-sm">Hotline</p>
               <div className="flex justify-center md:justify-start items-center space-x-3">
                 <Phone size={20} strokeWidth={2} className="text-cyan-500" />
-                <p className="text-sm">0383385258</p>
+                <p className="text-sm">(+84-24)3377383</p>
               </div>
             </div>
           </div>
