@@ -143,7 +143,7 @@ const Contact = () => {
                 <div className="text-white text-sm sm:text-base font-light">
                   <h3 className="font-medium text-cyan-400 mb-1">Điện thoại</h3>
                   {/* !!! THAY SỐ ĐIỆN THOẠI THẬT !!! */}
-                  <a href="tel:+09123458676" className="hover:text-cyan-300"><p>(+84-24)33773838</p></a>
+                  <a href="tel:+84-243377383" className="hover:text-cyan-300"><p>(+84-24)3377383</p></a>
                 </div>
               </div>
             </div>

@@ -127,7 +127,7 @@ const News_Details = () => {
         {/* Related News */}
         <aside className="mt-6 md:mt-0 md:ml-6 md:w-[20%] w-full bg-white shadow-lg rounded-lg p-6">
           <h3 className="text-lg font-semibold text-gray-800 mb-4 border-b pb-2">
-            📌 Tin tức liên quan
+            📌 Tin tức gần đây
           </h3>
 
           {loading ? (
